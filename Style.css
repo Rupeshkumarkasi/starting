@@ -1,0 +1,257 @@
+*{
+    margin:0;
+}
+.top img{
+    width: 100%;
+    height: 100vh;
+}
+.text h1{
+    font-size: 20vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 17vh;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: rgb(74, 65, 40);
+    transition: color 5s;
+}
+.text h1:hover{
+    color:lightseagreen;
+}
+.color{
+    color: rgb(105, 95, 170);
+    letter-spacing: 3px;
+    transition: color 5s;
+}
+.color:hover{
+    color: rgb(153, 123, 47);
+}
+.middle{
+    margin-left: 20%;
+    padding:3px 3px;
+    display:grid;
+    grid-template-columns: 60% 13% 25%;
+    align-items: center;
+}
+.middle a{
+    color: rgb(58, 53, 53);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle a:hover{
+    color: darkslateblue;
+}
+.section{
+    background: url("images/ss.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 160vh;
+}
+.section b{
+    float: left;
+    margin-left: 40vh;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 26vh;
+    color: lightslategrey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section h2{
+    position: absolute;
+    margin-top: 24vh;
+    margin-left:64vh;
+    color:rgb(34, 34, 122);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section article{
+    color: rgb(0, 0, 0);
+    width:55%;
+    position: absolute;
+    margin-left:55vh ;
+    margin-top: 35vh;
+}
+.blue{
+    background-color:rgba(52, 40, 120, 0.6);
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+    margin-top: 114vh;
+}
+.blue{
+    background-image: url("images/CT_SkillTest_v3_11.jpg");
+    background-size: 40%;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation:changeimage 20s linear infinite;
+}
+@keyframes changeimage{
+    0%{
+        background-image: url("images/CT_SkillTest_v3_11.jpg");
+    }
+    25%{
+        background-image: url("images/new.jpg");
+    }
+    50%{
+        background-image: url("images/2.jpg");
+    }
+    75%{
+        background-image: url("images/3.jpg");
+    }
+}
+.secondtext{
+    padding-top: 30px;
+    margin-left: 30vh;
+}
+.b{
+    font-weight: bold;
+    font-size: 26vh;
+    color: lightslategrey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.climb{
+    color:rgb(34, 34, 122);
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 291vh;
+    left: 61.5vh;
+}
+.article{
+    position: absolute;
+    left: 85vh;
+    top:288vh;
+    width: 50%;
+    line-height: 25px;
+}
+.mount{
+    background-color:rgb(40, 31, 95) ;
+    width: 100%;
+    height: 20px;
+    padding-top:10px ;
+    padding-bottom:13px ;
+    margin: 0;
+}
+.a{
+    margin-left: 20vh;
+}
+.a a{
+    color: rgb(196, 214, 214);
+    font-size: larger;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.a a:hover{
+    color:rgb(20, 118, 118);
+    background-color:rgb(207, 215, 215);
+    padding: 10px;
+    text-decoration: underline;
+}
+.last{
+    background-image: url("images/CT_SkillTest_v3_14.jpg");
+    width: 100%;
+    height: 87vh;
+}
+.footer img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (width <= 376px){
+    .text h1{
+        font-size: 5vh;
+        line-height: 6vh;
+        text-align: center;
+        position: absolute;
+        left:18%;
+    }
+    .top img{
+        width: 100%;
+    }
+    .middle{
+        font-size:14px;
+        margin-left: 0%;
+        padding:3px 3px;
+        display:grid;
+        grid-template-columns: 53% 27% 15%;
+        align-items: center;
+}
+    .section b{
+        float: left;
+        margin-left: 20px;
+        font-size: 17vh;
+    }
+    .section h2{
+        position: absolute;
+        margin-top: 16vh;
+        margin-left:19vh;
+    }
+    .section article{
+        color: rgb(0, 0, 0);
+        width:85%;
+        position: absolute;
+        margin-left:8vh ;
+        margin-top: 25vh;
+    }
+    .section{
+        background: url("images/ss.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 160vh;
+    }
+    .blue{
+        height: 20vh;
+        width: 100%;
+        justify-content: center;
+        margin-top: 134.7vh;
+    }
+    .blue{
+        background-image: url("images/CT_SkillTest_v3_11.jpg");
+        background-size: 60%;
+    }
+    .secondtext{
+        padding: 10px;
+        margin-left: 5vh;
+    }
+    .b{
+        font-weight: bold;
+        font-size: 15vh;
+    }
+    .climb{
+        position: absolute;
+        top: 278vh;
+        left: 22vh;
+    }
+    .article{
+        position: absolute;
+        left: 5vh;
+        top:288vh;
+        width: 90%;
+        line-height: 25px;
+    }
+    .mount{
+        margin-top: 90px;
+    }
+    .a{
+        margin-left: 1vh;
+    }
+    .last{
+        width: 100%;
+        background-size: cover;
+        background-position: 27% ;
+        height: 77vh;
+    }
+}
